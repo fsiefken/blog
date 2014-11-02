@@ -1,4 +1,5 @@
 ActiveAdmin.register Author do
+  permit_params :last_name, :first_name
 
 
   # See permitted parameters documentation:
